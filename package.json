@@ -1,6 +1,6 @@
 {
   "name": "replacefilter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Библиотека для обнаружения замены символов в строке",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,14 @@
   },
   "author": "VladimirGorin",
   "license": "MIT",
+  "keywords": [
+    "Замена", "Символы", "Строка", "Модуль", "Кодировка",
+    "Замещение", "Заменитель", "Обработка", "Текст",
+    "Регулярные выражения", "Функция", "Программирование",
+    "Replacement", "Characters", "String", "Module", "Encoding",
+    "Substitution", "Placeholder", "Processing", "Text",
+    "Regular expressions", "Function", "Programming", "Node js"
+],
   "dependencies": {
     "languagedetect": "^2.0.0"
   }

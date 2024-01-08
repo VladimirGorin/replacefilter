@@ -13,10 +13,10 @@ function filterReplacingCharacters(text) {
   }
 
   // Check for forbidden symbols
-  const forbiddenSymbols = ["*"];
+  const forbiddenSymbols = ["*", "@", "<", ">", "^", "|", "#", "&", "+"];
   const findForbiddenSymbol = forbiddenSymbols?.some((symbol) => text.includes(symbol));
   if (findForbiddenSymbol) {
-    return { status: true, text: "Contains forbidden symbol '*'." };
+    return { status: true, text: `Contains forbidden symbol '${findForbiddenSymbol}'.` };
   }
 
   // Check for alphanumeric characters
